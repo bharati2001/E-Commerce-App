@@ -1,0 +1,46 @@
+
+š
+java:S1488D"nImmediately return this expression instead of assigning it to the temporary variable "authenticationProvider".(±…¶ÎHÌRMINORZ
+CODE_SMELL
+e
+java:S18740"9Remove this use of "authorizeRequests"; it is deprecated.(×€ïÂHÑRMINORZ
+CODE_SMELL
+b
+java:S3740Z"/Provide the parametrized type for this generic.(‘ıÙ8üïÙ¢Ğ1HÖRMAJORZ
+CODE_SMELL
+
+java:S3305""ZInject this field value directly into "securityFilterChain", the only method that uses it.(²ËøùÿÿÿÿHÒRCRITICALZ
+CODE_SMELL
+n
+java:S1874"BRemove this use of "EnableGlobalMethodSecurity"; it is deprecated.(ö­ê×HÏRMINORZ
+CODE_SMELL
+y
+java:S5738,"HRemove this call to a deprecated method, it has been marked for removal.(ÊìÛ¯şÿÿÿÿHÓRMAJORZ
+CODE_SMELL
+y
+java:S5738."HRemove this call to a deprecated method, it has been marked for removal.(¡ŠÆøÿÿÿÿHÔRMAJORZ
+CODE_SMELL
+z
+java:S57384"HRemove this call to a deprecated method, it has been marked for removal.(¦™8ÿ‚€£Ğ1HÔRMAJORZ
+CODE_SMELL
+‰
+java:S3305"ZInject this field value directly into "securityFilterChain", the only method that uses it.(‡àó¸HĞRCRITICALZ
+CODE_SMELL
+g
+java:S3740N"/Provide the parametrized type for this generic.(ãıÂîùÿÿÿÿ8üïÙ¢Ğ1H×RMAJORZ
+CODE_SMELL
+b
+java:S3740Z"/Provide the parametrized type for this generic.(‘ıÙ8üïÙ¢Ğ1HÕRMAJORZ
+CODE_SMELL
+
+java:S14889"]Immediately return this expression instead of assigning it to the temporary variable "build".(ä­ªüıÿÿÿÿHÉRMINORZ
+CODE_SMELL
+
+java:S1488Z"\Immediately return this expression instead of assigning it to the temporary variable "bean".(‘ıÙ8üïÙ¢Ğ1HØRMINORZ
+CODE_SMELL
+€
+java:S57385"HRemove this call to a deprecated method, it has been marked for removal.(Åúßµûÿÿÿÿ8ÿ‚€£Ğ1HÕRMAJORZ
+CODE_SMELL
+z
+java:S57386"HRemove this call to a deprecated method, it has been marked for removal.(ÁôĞG8ÿ‚€£Ğ1HÖRMAJORZ
+CODE_SMELL

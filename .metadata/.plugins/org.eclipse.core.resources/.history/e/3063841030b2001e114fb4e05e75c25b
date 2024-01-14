@@ -1,0 +1,15 @@
+package com.ecommerce.controller;
+
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.ecommerce.response.UserResponse;
+
+@RestController
+public class UserController {
+	
+	@PostMapping("/createuser")
+	public ResponseEntity<UserResponse> cre
+
+}

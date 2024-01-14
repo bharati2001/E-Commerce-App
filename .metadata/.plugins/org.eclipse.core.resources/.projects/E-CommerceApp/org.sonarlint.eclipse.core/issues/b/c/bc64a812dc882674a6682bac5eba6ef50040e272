@@ -1,0 +1,10 @@
+
+—
+java:S1488"_Immediately return this expression instead of assigning it to the temporary variable "history".(®¿…Ñÿÿÿÿÿ8»ÿ‹ÇĞ1HıRMINORZ
+CODE_SMELL
+q
+java:S1128"9Remove this unused import 'com.ecommerce.entity.Product'.(ëí÷¢üÿÿÿÿ8×’ÈĞ1HÚRMINORZ
+CODE_SMELL
+w
+java:S1128"DRemove this unused import 'com.fasterxml.jackson.databind.JsonNode'.(–×ª8×’ÈĞ1HÜRMINORZ
+CODE_SMELL

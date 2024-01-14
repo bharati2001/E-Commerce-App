@@ -1,0 +1,10 @@
+
+—
+java:S14884"dImmediately return this expression instead of assigning it to the temporary variable "cartProducts".(†ã²î8ÇÁ‚ÂÐ1HçRMINORZ
+CODE_SMELL
+~
+java:S1192."HDefine a constant instead of duplicating this literal "success" 3 times.(•ŸÜç8½ÙÉÆÐ1HôRCRITICALZ
+CODE_SMELL
+q
+java:S1128">Remove this unused import 'com.ecommerce.entity.OrderHistory'.(À¿áœ8ÞöúÈÐ1H RMINORZ
+CODE_SMELL

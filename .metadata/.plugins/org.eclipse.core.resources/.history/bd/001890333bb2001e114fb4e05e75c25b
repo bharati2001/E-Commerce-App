@@ -1,0 +1,11 @@
+package com.ecommerce.service;
+
+import com.ecommerce.entity.Cart;
+import com.ecommerce.entity.Product;
+
+public interface CartService {
+
+	void saveProductOnCart(Cart cart);
+
+
+}

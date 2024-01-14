@@ -1,0 +1,38 @@
+
+s
+java:S1128"@Remove this unused import 'org.springframework.http.HttpEntity'.(ÂéŽÓ8ºÜóºÐ1H½
+RMINORZ
+CODE_SMELL
+—
+java:S1488S"_Immediately return this expression instead of assigning it to the temporary variable "product".(ÀÕßóúÿÿÿÿ8•¾Ç½Ð1Hè
+RMINORZ
+CODE_SMELL
+x
+java:S1128"@Remove this unused import 'org.springframework.http.HttpStatus'.(íŸ¤Šúÿÿÿÿ8ºÜóºÐ1H¿
+RMINORZ
+CODE_SMELL
+“
+java:S1488M"`Immediately return this expression instead of assigning it to the temporary variable "products".(¤šŒÅ8ä¾àºÐ1Hù	RMINORZ
+CODE_SMELL
+€
+java:S1128"HRemove this unused import 'org.springframework.web.client.RestTemplate'.(Îö¼Þûÿÿÿÿ8ºÜóºÐ1HÃ
+RMINORZ
+CODE_SMELL
+m	java:S125Z"<This block of commented-out lines of code should be removed.(¯Îº_8ä¾àºÐ1Hü	RMAJORZ
+CODE_SMELL
+y
+java:S1128"ARemove this unused import 'org.springframework.http.HttpHeaders'.(ãŸñ×úÿÿÿÿ8ºÜóºÐ1H»
+RMINORZ
+CODE_SMELL
+|
+java:S1128"DRemove this unused import 'org.springframework.http.ResponseEntity'.(¶¯ø¦úÿÿÿÿ8ºÜóºÐ1HÁ
+RMINORZ
+CODE_SMELL
+w
+java:S1128"?Remove this unused import 'org.springframework.http.MediaType'.(úŸÝ¯þÿÿÿÿ8ºÜóºÐ1HÅ
+RMINORZ
+CODE_SMELL
+
+java:S1128"GRemove this unused import 'com.ecommerce.repository.ProductRepository'.(‰âÇóùÿÿÿÿ8ºÜóºÐ1HÇ
+RMINORZ
+CODE_SMELL

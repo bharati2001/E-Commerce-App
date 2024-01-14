@@ -1,0 +1,9 @@
+package com.ecommerce.response;
+
+import lombok.Data;
+
+@Data
+public class UserResponse {
+	private boolean status;
+	private String message;
+}

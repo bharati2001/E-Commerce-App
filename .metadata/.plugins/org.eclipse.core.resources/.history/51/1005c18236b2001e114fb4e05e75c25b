@@ -1,0 +1,27 @@
+package com.ecommerce.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.ecommerce.entity.User;
+import com.ecommerce.response.UserResponse;
+import com.ecommerce.service.UserService;
+
+@RestController
+public class UserController {
+	
+	@Autowired
+	private UserService userService;
+	
+	@PostMapping("/createuser")
+	public ResponseEntity<UserResponse> createUser(@RequestBody User user){
+		userService.createUser(user);
+		UserResponse response = new UserResponse(true, "User Created Successfully!!");
+	    return new ResponseEntity<>(response, HttpStatus.OK);
+	}
+
+}

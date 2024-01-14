@@ -1,0 +1,6 @@
+
+
+java:S1488("\Immediately return this expression instead of assigning it to the temporary variable "cart".(ƒ…ğæ8¶º»ÈĞ1HşRMINORZ
+CODE_SMELL
+|
+java:S3655("PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(ƒ…ğæ8¶º»ÈĞ1HRMAJORZBUG

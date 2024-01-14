@@ -1,0 +1,49 @@
+package com.ecommerce.controller;
+
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.request;
+
+import org.springframework.http.ResponseEntity;
+import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
+import org.springframework.security.core.Authentication;
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.ecommerce.entity.User;
+import com.ecommerce.response.Response;
+
+@RestController
+@CrossOrigin("*")
+@RequestMapping("/api")
+public class AuthentionController {
+	@PostMapping("/auth/user")
+	private ResponseEntity<?> authenticateAndGetToken(@RequestBody User user) {
+		String remoteAddr = httpRequest.getRemoteAddr().toString();
+		tokenRepo.deleteByipAddress(remoteAddr);
+		try {
+			if (request.getUserName() != null && request.getPassword() != null && !request.getUserName().isEmpty()
+					&& !request.getPassword().isEmpty()) {
+				Authentication authenticate = authenticationManager.authenticate(
+						new UsernamePasswordAuthenticationToken(request.getUserName(), request.getPassword()));
+				if (authenticate.isAuthenticated()) {
+					String token = jwtService.generateToken(request.getUserName());
+					TokenResponse tokenResponse = new TokenResponse();
+					tokenResponse.setUserName(request.getUserName());
+					tokenResponse.setIpAddress(remoteAddr);
+					tokenResponse.setToken(token);
+					tokenRepo.save(tokenResponse);
+					return ResponseEntity.ok(new Response("success", token));
+				} else {
+					return ResponseEntity.ok(new Response("error", "Invalid UserName or Password"));
+				}
+			} else {
+				return ResponseEntity.ok(new Response("error", "Enter a valid UserName and Password"));
+			}
+		} catch (Exception e) {
+			return ResponseEntity.ok(new Response("error", "Enter a valid UserName and Password"));
+		}
+
+	}
+}

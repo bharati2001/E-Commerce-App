@@ -1,0 +1,10 @@
+
+i
+java:S1128"1Remove this unused import 'java.util.Collection'.(π…–ö˘ˇˇˇˇ8‹∏Î¢–1HÉRMINORZ
+CODE_SMELL
+Ç
+java:S1128"ORemove this unused import 'org.springframework.security.core.GrantedAuthority'.(Ω¡±ˇ8‹∏Î¢–1HÖRMINORZ
+CODE_SMELL
+â
+java:S1128"VRemove this unused import 'org.springframework.security.core.userdetails.UserDetails'.( Å¡•8‹∏Î¢–1HáRMINORZ
+CODE_SMELL

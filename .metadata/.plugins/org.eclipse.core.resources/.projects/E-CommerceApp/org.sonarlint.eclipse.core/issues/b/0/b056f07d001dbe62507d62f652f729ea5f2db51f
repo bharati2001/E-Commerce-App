@@ -1,0 +1,16 @@
+
+R
+java:S3751""Make this method non "private".(š„İõ8ö²¹£Ğ1H¦RMAJORZ
+CODE_SMELL
+v
+java:S1854#">Remove this useless assignment to local variable "remoteAddr".(ÎŸİ“ÿÿÿÿÿ8Û¦à£Ğ1H§RMAJORZ
+CODE_SMELL
+
+java:S1192-"FDefine a constant instead of duplicating this literal "error" 3 times.(˜Åäøÿÿÿÿ8ö²¹£Ğ1H¨RCRITICALZ
+CODE_SMELL
+
+java:S1858#"G"getRemoteAddr" returns a string, there's no need to call "toString()".(ÎŸİ“ÿÿÿÿÿ8‘‰Ï£Ğ1H¬RMINORZ
+CODE_SMELL
+g
+java:S1481#"/Remove this unused "remoteAddr" local variable.(ÎŸİ“ÿÿÿÿÿ8Ü¦à£Ğ1H®RMINORZ
+CODE_SMELL

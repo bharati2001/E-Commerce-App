@@ -1,0 +1,9 @@
+
+—
+java:S1488"_Immediately return this expression instead of assigning it to the temporary variable "product".(õ»æ¢ùÿÿÿÿ8ÉºñºÐ1H­
+RMINORZ
+CODE_SMELL
+˜
+java:S1488"`Immediately return this expression instead of assigning it to the temporary variable "products".(Ìêýûøÿÿÿÿ8—¡ëºÐ1H”
+RMINORZ
+CODE_SMELL
